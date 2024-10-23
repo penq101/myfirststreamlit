@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("👋🏻 연수 실습 페이지")
+st.title("👋🏻 연수 실습")
 st.subheader("오늘은 24년10월23일 수요일입니다")
 st.write("환영합니다.")
 st.write("https://weather.naver.com/")
@@ -16,4 +16,6 @@ st.success("success=초록색 창")
 #이미지주소
 st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnRud210dzd3MGM2N21xbXV1ODN6N292MXR4aTNicHZ5dzFrb2xpayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VJCK9OYBxtdGo/giphy.gif", caption="핑구성공") 
 st.video("https://www.youtube.com/watch?v=l2Uhi9bTJOM")
+
 #내가 갖고있던 이미지
+st.image("data/오늘의키워드_20241016.png")
