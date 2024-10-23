@@ -1,13 +1,19 @@
 import streamlit as st
 
-st.title("👋🏻 Streamlit 앱 만들기")
-st.subheader("이 페이지는 실습 페이지입니다.")
-st.write("오른쪽 위의 'fork' 버튼을 눌러주세요. 이 페이지와 앱이 그대로 복사됩니다.")
+st.title("👋🏻 연수 실습 페이지")
+st.subheader("오늘은 24년10월23일 수요일입니다")
+st.write("환영합니다.")
+st.write("https://weather.naver.com/")
 
-st.link_button("streamlit 매뉴얼 페이지 바로가기!", "https://surish.notion.site/streamlit-113eef51495c8083986cc65f2d07470c?pvs=73")
+st.link_button("날씨 바로가기!", "https://weather.naver.com/")
 
-# st.success("초록색 창")
-# st.error("빨간색 창")
-st.info("파란색 창")
-# st.warning("노란색 창") # ctrl+/ : 주석처리
-st.image("https://media.giphy.com/media/8bE0EERrvXkq5S9BCa/giphy.gif?cid=ecf05e479tvvde0o3d3do3g67yoq0jn4zzyg9hyt63stuf0x&ep=v1_gifs_related&rid=giphy.gif&ct=g", caption="Welcome to coding world") 
+#창의 색깔을 바꾸기
+st.success("success=초록색 창")
+# st.error("error=빨간색 창")
+# st.info("info=파란색 창")
+# st.warning("warning=노란색 창") # ctrl+/ : 주석처리
+
+#이미지주소
+st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnRud210dzd3MGM2N21xbXV1ODN6N292MXR4aTNicHZ5dzFrb2xpayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VJCK9OYBxtdGo/giphy.gif", caption="핑구성공") 
+st.video("https://www.youtube.com/watch?v=l2Uhi9bTJOM")
+#내가 갖고있던 이미지
